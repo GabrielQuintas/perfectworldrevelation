@@ -1,0 +1,91 @@
+/* MENU INTERNO */
+nav li a{
+    color:#C20B16;
+    font-family:'Swis721 BlkCn BT Black';
+}
+
+/* HOME */
+#home h1{
+    font-family:'Western Bang Bang','Arial';
+    color:#D9A64D;
+}
+#home h2{
+    font-family:'Western Bang Bang','Arial';
+    color:#FFFFFF;
+}
+
+/* APRESENTAÇÃO */
+#apresentacao h1{
+    font-family:'Western Bang Bang','Arial';
+    color:#FFFFFF;
+}
+#apresentacao h2{
+    font-family:'Western Bang Bang','Arial';
+    color:#D9A64D;
+}
+#apresentacao h3{
+    font-family:'Swis721 BlkCn BT Black','Arial';
+    color:#FFFFFF;
+}
+#apresentacao h4{
+    font-family:'Swis721 BlkCn BT Black','Arial';
+    color:#FFFFFF;
+}
+#apresentacao h5{
+    font-family:'Swis721 BlkCn BT Black','Arial';
+    color:#FFFFFF;
+}
+
+/* FUNCIONALIDADES */
+#funcionalidades h1{
+    font-family:'Western Bang Bang','Arial';
+    color:#FFFFFF;
+}
+#espaco-runas h2{
+    font-family:'Swis721 BlkCn BT Black','Arial';
+    color:#000000;
+}
+#espaco-runas p{
+    font-family:'Arial';
+    color:#000000;
+}
+#espaco-trial h2{
+    font-family:'Swis721 BlkCn BT Black','Arial';
+    color:#000000;
+}
+#espaco-trial p{
+    font-family:'Arial';
+    color:#000000;
+}
+#espaco-barco h2{
+    font-family:'Swis721 BlkCn BT Black';
+    color:#000000;
+}
+#espaco-barco p{
+    font-family:'Arial';
+    color:#000000;
+}
+
+/* DESENVOLVIMENTO */
+#desenvolvimento h1{
+    font-family:'Western Bang Bang';
+    color:#FFFFFF;
+}
+
+/* NEWSLETTER */
+#newsletter h1{
+    font-family:'Western Bang Bang';
+    color:#D9A64D;
+}
+#botao{
+    font-family:'Western Bang Bang';
+    color:#231A0F;
+}
+#nome{
+    font-family:'Western Bang Bang';
+    color:#FFFFFF;
+}
+#email{
+    font-family:'Western Bang Bang';
+    color:#FFFFFF;
+}

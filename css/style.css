@@ -1,0 +1,1119 @@
+/* RESET */
+* {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    font-family:'Arial';
+    font-weight:normal;
+    outline:none;
+    text-decoration:none;
+    box-sizing:border-box;
+}
+ul{list-style-type:none;}
+
+
+/* TESTE */
+.btn-menu {
+    display:none;
+}
+.menu{
+    width:100%;
+    /*display:none;
+    width:100%;
+    height:100%;
+    position:fixed;
+    background-color:rgba(0,0,0,0.9);
+    top:0;
+    left:0;*/
+}
+.btn-close{
+    font-size:3em;
+    color:#FFFFFF;
+    float:left;
+    margin-left:0.5%; 
+    cursor:pointer;
+    display:none;
+}
+
+/* NAVEGAÇÃO INTERNA */
+nav{width:100%;padding:5px;}
+nav li{float:left;}
+nav li a{
+    color:#C20B16;
+    font-family:'Swis721 BlkCn BT Black';
+    font-size:25px;
+    margin-left:13vw;
+    padding-bottom:10px;
+    margin-top:0;
+}
+nav li a:hover{color:#B0050F; text-decoration:none;}
+
+/* IMAGEM DO LOGO */
+.img{
+    height:90px;
+    width:120px;
+    float:left;
+    position:absolute;
+    top:0;
+    right:0px;
+}
+.img:hover{
+    top:10px;
+}
+
+/* HOME */
+#home{
+    margin-top:1%;
+    background-image:url(../fonts/homec.jpg);
+    padding:370px;
+}
+#home h1{
+    font-family:'Western Bang Bang','Arial';
+    font-size:150px;
+    color:#D9A64D;
+    text-shadow:#000000 0.1em 0.1em 0.2em;
+    position:absolute;
+    top:280px;
+    left:480px;
+}
+#home h2{
+    font-family:'Western Bang Bang','Arial';
+    font-size:150px;
+    color:#FFFFFF;
+    text-shadow:#000000 0.1em 0.1em 0.2em;
+    position:absolute;
+    top:485px;
+    left:600px;
+}
+
+/* APRESENTAÇÃO */
+#apresentacao{
+    margin-top:2%;
+    background-image:url(../fonts/apresentacao.jpg);
+    padding:280px;
+}
+#apresentacao h1{
+    font-family:'Western Bang Bang','Arial';
+    font-size:130px;
+    color:#FFFFFF;
+    position:absolute;
+    top:840px;
+    left:1250px;
+}
+#apresentacao h2{
+    font-family:'Western Bang Bang','Arial';
+    font-size:110px;
+    color:#D9A64D;
+    position:absolute;
+    top:960px;
+    left:1280px;
+}
+#apresentacao h3{
+    font-family:'Swis721 BlkCn BT Black','Arial';
+    font-size:60px;
+    color:#FFFFFF;
+    position:absolute;
+    top:1050px;
+    left:50px;
+}
+#apresentacao h4{
+    font-family:'Swis721 BlkCn BT Black','Arial';
+    font-size:40px;
+    color:#FFFFFF;
+    text-align:center;
+    position:absolute;
+    top:1280px;
+    left:550px;
+}
+#apresentacao h5{
+    font-family:'Swis721 BlkCn BT Black','Arial';
+    font-size:30px;
+    color:#FFFFFF;
+    position:absolute;
+    top:1120px;
+    left:53px;
+}
+
+/* FUNCIONALIDADES */
+#funcionalidades{
+    margin-top:2%;
+    background-color:#996D2C;
+    padding-bottom:1%;
+}
+#funcionalidades h1{
+    font-family:'Western Bang Bang','Arial';
+    font-size:130px;
+    color:#FFFFFF;
+    text-align:center;
+    padding-top:2%;
+    padding-bottom:1%;
+}
+
+/* RUNAS */
+#espaco-runas{
+    background-color:#FFFFFF;
+    padding:50px;
+    margin-right:5%;
+    margin-left:5%;
+}
+.tamanho{
+    width:800px;
+    height:500px;
+}
+.logo{
+    position:absolute;
+    top:1680px;
+    right:480px;
+}
+#espaco-runas h2{
+    font-family:'Swis721 BlkCn BT Black','Arial';
+    font-size:50px;
+    color:#000000;
+    position:absolute;
+    top:1730px;
+    right:450px;
+}
+#espaco-runas p{
+    font-family:'Arial';
+    font-size:35px;
+    color:#000000;
+    position:absolute;
+    top:1820px;
+    right:320px;
+}
+
+/* NOVA TRIAL */
+#espaco-trial{
+    background-color:#FFFFFF;
+    padding:300px 100px;
+    margin-right:5%;
+    margin-left:5%;
+    margin-top:5%;
+}
+.trial{
+    position:absolute;
+    top:2370px;
+    left:955px;
+}
+.logo2{
+    position:absolute;
+    top:2370px;
+    left:500px;
+}
+#espaco-trial h2{
+    font-family:'Swis721 BlkCn BT Black','Arial';
+    font-size:50px;
+    color:#000000;
+    position:absolute;
+    top:2435px;
+    left:405px;
+}
+#espaco-trial p{
+    font-family:'Arial';
+    font-size:35px;
+    color:#000000;
+    position:absolute;
+    top:2520px;
+    left:315px;
+}
+
+/* VIAGEM A BARCO */
+#espaco-barco{
+    background-color:#FFFFFF;
+    padding:50px;
+    margin-right:5%;
+    margin-left:5%;
+    margin-top:5%;
+    margin-bottom:5%;
+}
+.logo3{
+    position:absolute;
+    top:3070px;
+    right:480px;
+}
+#espaco-barco h2{
+    font-family:'Swis721 BlkCn BT Black';
+    font-size:50px;
+    color:#000000;
+    position:absolute;
+    top:3150px;
+    right:335px;
+}
+#espaco-barco p{
+    font-family:'Arial';
+    font-size:35px;
+    color:#000000;
+    position:absolute;
+    top:3230px;
+    right:270px;
+}
+
+/* DESENVOLVIMENTO */
+#desenvolvimento{
+    background-color:#231A0F;
+    width:100%;
+    margin-top:2%;
+    padding-bottom:3.5%;
+}
+#desenvolvimento h1{
+    font-family:'Western Bang Bang';
+    font-size:130px;
+    color:#FFFFFF;
+    text-align:center;
+    padding-top:2%;
+    padding-bottom:1%;
+}
+.tamanhok{
+    width:1273px;
+    height:768px;
+}
+#carouselExampleControls{
+    /*background-color:#47341D;*/
+    background:linear-gradient(to top,#231A0F,#B1863B,#DBA851,#B1863B,#231A0F);
+    margin-left:10%;
+    margin-right:10%;
+}
+
+/* NEWSLETTER */
+#newsletter{
+    margin-top:2%;
+    background-image:url(../fonts/newsletter.jpg);
+    background-repeat:no-repeat;
+    padding-right:400px;
+    padding-left:400px;
+    padding-top:250px;
+    padding-bottom:170px;
+}
+#newsletter h1{
+    font-family:'Western Bang Bang';
+    font-size:120px;
+    color:#D9A64D;
+    text-shadow:#000000 0.1em 0.1em 0.2em;
+    position:absolute;
+    top:4900px;
+    right:700px;
+}
+#inputNome{
+    width:900px;
+    height:50px;
+    margin-left:2.2%;
+    border:2px solid #FFFFFF;
+}
+#inputEmail{
+    width:900px;
+    height:50px;
+    margin-top:2%;
+    border:2px solid #FFFFFF;
+    margin-left:0.5%;
+}
+#botao{
+    background:linear-gradient(to bottom,#D9A64D, #CE8C2C,#AF7C28);
+    width:500px;
+    height:75px;
+    position:absolute;
+    top:5340px;
+    right:700px;
+    font-family:'Western Bang Bang';
+    font-size:50px;
+    color:#231A0F;
+    border:none;
+    box-shadow:2px 3px 2px #231A0F;
+}
+#botao:hover{
+    background:linear-gradient(to bottom,#AF7C28, #CE8C2C,#D9A64D);
+    width:500px;
+    height:75px;
+    position:absolute;
+    top:5340px;
+    right:700px;
+    font-family:'Western Bang Bang';
+    font-size:50px;
+    color:#231A0F;
+    border:none;
+    box-shadow:2px 3px 2px #231A0F;
+}
+#nome{
+    font-family:'Western Bang Bang';
+    font-size:50px;
+    text-shadow:#000000 0.1em 0.1em 0.2em;
+    color:#FFFFFF;
+}
+#email{
+    font-family:'Western Bang Bang';
+    font-size:50px;
+    text-shadow:#000000 0.1em 0.1em 0.2em;
+    color:#FFFFFF;
+}
+
+/* 1600 X 900 (Casa) */
+@media screen and (max-width:1600px) {
+    /* NAVEGAÇÃO INTERNA */
+    nav{width:100%;padding:5px;}
+    nav li{float:left;}
+    nav li a{
+        color:#C20B16;
+        font-family:'Swis721 BlkCn BT Black';
+        font-size:25px;
+        margin-left:10vw;
+        padding-bottom:10px;
+        margin-top:0;
+    }
+    nav li a:hover{color:#B0050F; text-decoration:none;}
+
+    /* APRESENTAÇÃO */
+    #apresentacao h1{
+        left:1000px;
+    }
+    #apresentacao h2{
+        left:1040px;
+    }
+    #apresentacao h4{
+        left:375px;
+    }
+    
+    /* RUNAS */
+    .logo{
+        top:1654px;
+        right:328px;
+    }
+    #espaco-runas h2{
+        top:1710px;
+        right:300px;
+    }
+    #espaco-runas p{
+        top:1800px;
+        right:170px;
+    }
+
+    /* NOVA TRIAL */
+    .trial{
+        top:2330px;
+        left:650px;
+    }
+    .logo2{
+        top:2330px;
+        left:328px;
+    }
+    #espaco-trial h2{
+        top:2400px;
+        left:235px;
+    }
+    #espaco-trial p{
+        top:2470px;
+        left:150px;
+    }
+
+    /* VIAGEM A BARCO */
+    .logo3{
+        top:3010px;
+        right:328px;
+    }
+    #espaco-barco h2{
+        top:3090px;
+        right:180px;
+    }
+    #espaco-barco p{
+        top:3170px;
+        right:120px;
+    }
+
+    /* NEWSLETTER */
+    #newsletter h1{
+        top:4800px;
+        right:530px;
+    }
+    #inputNome{
+        width:600px;
+        margin-left:3%;
+    }
+    #inputEmail{
+        width:600px;
+    }
+    #botao{
+        background:linear-gradient(to bottom,#D9A64D, #CE8C2C,#AF7C28);
+        width:300px;
+        top:5220px;
+        right:640px;
+    }
+    #botao:hover{
+        background:linear-gradient(to bottom,#AF7C28, #CE8C2C,#D9A64D);
+        width:300px;
+        top:5220px;
+        right:640px;
+    }
+}
+
+/* SMALL DEVICES - TABLETS */
+@media screen and (max-width:800px){
+    /* NAVEGAÇÃO INTERNA */
+    nav{width:800px;padding:5px;}
+    nav li{float:left;}
+    nav li a{
+        color:#C20B16;
+        font-family:'Swis721 BlkCn BT Black';
+        font-size:20px;
+        margin-left:5vw;
+        margin-top:0;
+    }
+    nav li a:hover{color:#B0050F; text-decoration:none;}
+
+    /* IMAGEM DO LOGO */
+    .img{
+        height:60px;
+        width:90px;
+        float:left;
+        position:absolute;
+        top:0;
+        right:0px;
+    }
+    .img:hover{
+        top:10px;
+    }
+
+    /* HOME */
+    #home{
+        margin-top:1%;
+        background-image:url(../fonts/homeok.jpg);
+        padding:370px;
+    }
+    #home h1{
+        font-family:'Western Bang Bang','Arial';
+        font-size:100px;
+        color:#D9A64D;
+        text-shadow:#000000 0.1em 0.1em 0.2em;
+        position:absolute;
+        top:280px;
+        left:157px;
+    }
+    #home h2{
+        font-family:'Western Bang Bang','Arial';
+        font-size:100px;
+        color:#FFFFFF;
+        text-shadow:#000000 0.1em 0.1em 0.2em;
+        position:absolute;
+        top:480px;
+        left:220px;
+    }
+
+    /* APRESENTAÇÃO */
+    #apresentacao{
+        margin-top:2%;
+        background-image:url(../fonts/apresentacaook.jpg);
+        padding:280px;
+    }
+    #apresentacao h1{
+        font-family:'Western Bang Bang','Arial';
+        font-size:80px;
+        color:#FFFFFF;
+        position:absolute;
+        top:840px;
+        left:440px;
+    }
+    #apresentacao h2{
+        font-family:'Western Bang Bang','Arial';
+        font-size:70px;
+        color:#D9A64D;
+        position:absolute;
+        top:920px;
+        left:460px;
+    }
+    #apresentacao h3{
+        font-family:'Swis721 BlkCn BT Black','Arial';
+        font-size:40px;
+        color:#FFFFFF;
+        position:absolute;
+        top:1050px;
+        left:20px;
+    }
+    #apresentacao h4{
+        font-family:'Swis721 BlkCn BT Black','Arial';
+        font-size:25px;
+        color:#FFFFFF;
+        text-align:center;
+        position:absolute;
+        top:1280px;
+        left:140px;
+    }
+    #apresentacao h5{
+        font-family:'Swis721 BlkCn BT Black','Arial';
+        font-size:30px;
+        color:#FFFFFF;
+        position:absolute;
+        top:1100px;
+        left:25px;
+    }
+
+    /* FUNCIONALIDADES */
+    #funcionalidades{
+        margin-top:2%;
+        background-color:#996D2C;
+        padding-bottom:1%;
+    }
+    #funcionalidades h1{
+        font-family:'Western Bang Bang','Arial';
+        font-size:100px;
+        color:#FFFFFF;
+        text-align:center;
+        padding-top:2%;
+        padding-bottom:1%;
+    }
+
+    /* RUNAS */
+    #espaco-runas{
+        background-color:#FFFFFF;
+        padding:50px;
+        margin-right:5%;
+        margin-left:5%;
+    }
+    .tamanho{
+        width:350px;
+        height:300px;
+    }
+    .logo{
+        position:absolute;
+        top:1560px;
+        right:150px;
+    }
+    #espaco-runas h2{
+        font-family:'Swis721 BlkCn BT Black','Arial';
+        font-size:40px;
+        color:#000000;
+        position:absolute;
+        top:1610px;
+        right:140px;
+    }
+    #espaco-runas p{
+        font-family:'Arial';
+        font-size:20px;
+        color:#000000;
+        position:absolute;
+        top:1680px;
+        right:83px;
+    }
+
+    /* NOVA TRIAL */
+    #espaco-trial{
+        background-color:#FFFFFF;
+        padding:220px 100px;
+        margin-right:5%;
+        margin-left:5%;
+        margin-top:5%;
+    }
+    .trial{
+        position:absolute;
+        top:2000px;
+        left:345px;
+        width:350px;
+        height:300px;
+    }
+    .logo2{
+        position:absolute;
+        top:2000px;
+        left:170px;
+    }
+    #espaco-trial h2{
+        font-family:'Swis721 BlkCn BT Black','Arial';
+        font-size:40px;
+        color:#000000;
+        position:absolute;
+        top:2060px;
+        left:97px;
+    }
+    #espaco-trial p{
+        font-family:'Arial';
+        font-size:20px;
+        color:#000000;
+        position:absolute;
+        top:2110px;
+        left:75px;
+    }
+
+    /* VIAGEM A BARCO */
+    #espaco-barco{
+        background-color:#FFFFFF;
+        padding:50px;
+        margin-right:5%;
+        margin-left:5%;
+        margin-top:5%;
+        margin-bottom:5%;
+    }
+    .logo3{
+        position:absolute;
+        top:2470px;
+        right:150px;
+    }
+    #espaco-barco h2{
+        font-family:'Swis721 BlkCn BT Black';
+        font-size:35px;
+        color:#000000;
+        position:absolute;
+        top:2540px;
+        right:55px;
+    }
+    #espaco-barco p{
+        font-family:'Arial';
+        font-size:18px;
+        color:#000000;
+        position:absolute;
+        top:2590px;
+        right:58px;
+    }
+
+    /* DESENVOLVIMENTO */
+    #desenvolvimento{
+        background-color:#231A0F;
+        width:100%;
+        margin-top:2%;
+        padding-bottom:5%;
+    }
+    #desenvolvimento h1{
+        font-family:'Western Bang Bang';
+        font-size:100px;
+        color:#FFFFFF;
+        text-align:center;
+        padding-top:2%;
+        padding-bottom:1%;
+    }
+    .tamanhok{
+        width:50px;
+        height:384px;
+    }
+
+    /* NEWSLETTER */
+    #newsletter{
+        margin-top:2%;
+        background-image:url(../fonts/newsletter.jpg);
+        background-repeat:no-repeat;
+        padding-right:100px;
+        padding-left:100px;
+        padding-top:150px;
+        padding-bottom:115px;
+    }
+    #newsletter h1{
+        font-family:'Western Bang Bang';
+        font-size:80px;
+        color:#D9A64D;
+        text-shadow:#000000 0.1em 0.1em 0.2em;
+        position:absolute;
+        top:3500px;
+        right:230px;
+    }
+    #inputNome{
+        width:400px;
+        height:40px;
+        margin-left:3%;
+        border:2px solid #FFFFFF;
+    }
+    #inputEmail{
+        width:400px;
+        height:40px;
+        margin-top:2%;
+        border:2px solid #FFFFFF;
+        margin-left:0.5%;
+    }
+    #botao{
+        background:linear-gradient(to bottom,#D9A64D, #CE8C2C,#AF7C28);
+        width:300px;
+        height:55px;
+        position:absolute;
+        top:3800px;
+        right:240px;
+        font-family:'Western Bang Bang';
+        font-size:40px;
+        color:#231A0F;
+        border:none;
+        box-shadow:2px 3px 2px #231A0F;
+    }
+    #botao:hover{
+        background:linear-gradient(to bottom,#AF7C28, #CE8C2C,#D9A64D);
+        width:300px;
+        height:55px;
+        position:absolute;
+        top:3800px;
+        right:240px;
+        font-family:'Western Bang Bang';
+        font-size:40px;
+        color:#231A0F;
+        border:none;
+        box-shadow:2px 3px 2px #231A0F;
+    }
+    #nome{
+        font-family:'Western Bang Bang';
+        font-size:40px;
+        text-shadow:#000000 0.1em 0.1em 0.2em;
+        color:#FFFFFF;
+    }
+    #email{
+        font-family:'Western Bang Bang';
+        font-size:40px;
+        text-shadow:#000000 0.1em 0.1em 0.2em;
+        color:#FFFFFF;
+    }
+}
+
+/* SMALL DEVICES - SMARTPHONES */
+@media screen and (max-width:480px){
+    /* TESTE */
+    .btn-menu{
+        border:none;
+        color:#C20B16;
+        background-color:transparent;
+        position:absolute;
+        top:4px;
+        left:10px;
+        cursor:pointer;
+        display:block;
+    }
+    .menu{
+        display: none;
+    }
+    .menu.exibido{
+        display: block;
+        width:100%;
+        height:100%;
+        position:fixed;
+        background-color:rgba(0,0,0,0.9);
+        top:0;
+        left:0;
+        z-index:2; 
+        color:#FFFFFF;
+    }
+    .menu:hover{color:#B0050F;}
+    .btn-close{
+        font-size:3em;
+        color:#FFFFFF;
+        float:left; 
+        margin-left:0.5%; 
+        cursor:pointer;
+        display:block;
+        position:fixed;
+        top:0;
+        left:50%;  
+        background-color:#D9A64D;
+    }
+    .btn-close:hover{background-color:#D9A64D;}
+    
+    /* NAVEGAÇÃO INTERNA */
+    nav{width:100%;padding:5px;}
+    nav li{float:left;}
+    nav li a{
+        color:#DAD4D4;
+        font-family:'Swis721 BlkCn BT Black';
+        font-size:40px;
+        margin-left:10vw;
+        line-height:600%;
+        border-top:2px solid #D9A64D; 
+    }
+    nav li a:hover{color:#D9A64D;  text-decoration:none;border-top:2px solid #B0050F;}
+
+    /* IMAGEM DO LOGO */
+    .img{
+        height:60px;
+        width:90px;
+        float:left;
+        position:absolute;
+        top:0;
+        right:0px;
+    }
+    .img:hover{
+        top:10px;
+    }
+
+    /* HOME */
+    #home{
+        margin-top:9%;
+        background-image:url(../fonts/hometeste.jpg);
+        background-repeat:no-repeat;
+        padding:250px;
+    }
+    #home h1{
+        font-family:'Western Bang Bang','Arial';
+        font-size:65px;
+        color:#D9A64D;
+        text-shadow:#000000 0.1em 0.1em 0.2em;
+        position:absolute;
+        top:190px;
+        left:60px;
+    }
+    #home h2{
+        font-family:'Western Bang Bang','Arial';
+        font-size:65px;
+        color:#FFFFFF;
+        text-shadow:#000000 0.1em 0.1em 0.2em;
+        position:absolute;
+        top:320px;
+        left:110px;
+    }
+
+    /* APRESENTAÇÃO */
+    #apresentacao{
+        margin-top:2%;
+        background-image:url(../fonts/apresentacaoteste.jpg);
+        background-repeat:no-repeat;
+        padding:250px;
+    }
+    #apresentacao h1{
+        font-family:'Western Bang Bang','Arial';
+        font-size:50px;
+        color:#FFFFFF;
+        position:absolute;
+        top:580px;
+        left:240px;
+    }
+    #apresentacao h2{
+        font-family:'Western Bang Bang','Arial';
+        font-size:45px;
+        color:#D9A64D;
+        position:absolute;
+        top:630px;
+        left:260px;
+    }
+    #apresentacao h3{
+        font-family:'Swis721 BlkCn BT Black','Arial';
+        font-size:25px;
+        color:#FFFFFF;
+        position:absolute;
+        top:770px;
+        left:20px;
+    }
+    #apresentacao h4{
+        font-family:'Swis721 BlkCn BT Black','Arial';
+        font-size:18px;
+        color:#FFFFFF;
+        text-align:center;
+        position:absolute;
+        top:970px;
+        left:37px;
+    }
+    #apresentacao h5{
+        font-family:'Swis721 BlkCn BT Black','Arial';
+        font-size:18px;
+        color:#FFFFFF;
+        position:absolute;
+        top:800px;
+        left:22px;
+    }
+    /* FUNCIONALIDADES */
+    #funcionalidades{
+        margin-top:2%;
+        background-color:#996D2C;
+        padding-bottom:1%;
+    }
+    #funcionalidades h1{
+        font-family:'Western Bang Bang','Arial';
+        font-size:65px;
+        color:#FFFFFF;
+        text-align:center;
+        padding-top:2%;
+        padding-bottom:1%;
+    }
+
+    /* RUNAS */
+    #espaco-runas{
+        background-color:#FFFFFF;
+        padding:100px 22px;
+        margin-right:3%;
+        margin-left:3%;
+        height:560px;
+    }
+    .tamanho{
+        width:390px;
+        height:300px;
+    }
+    .logo{
+        position:absolute;
+        top:1160px;
+        right:180px;
+    }
+    #espaco-runas h2{
+        font-family:'Swis721 BlkCn BT Black','Arial';
+        font-size:30px;
+        color:#000000;
+        position:absolute;
+        top:1210px;
+        right:180px;
+    }
+    #espaco-runas p{
+        font-family:'Arial';
+        font-size:22px;
+        color:#000000;
+        position:absolute;
+        top:1565px;
+        right:100px;
+    }
+
+    /* NOVA TRIAL */
+    #espaco-trial{
+        background-color:#FFFFFF;
+        padding:110px 22px;
+        margin-right:3%;
+        margin-left:3%;
+        height:680px;
+    }
+    .trial{
+        position:absolute;
+        top:1850px;
+        left:34px;
+        width:390px;
+    }
+    .logo2{
+        position:absolute;
+        top:1750px;
+        left:210px;
+    }
+    #espaco-trial h2{
+        font-family:'Swis721 BlkCn BT Black','Arial';
+        font-size:30px;
+        color:#000000;
+        position:absolute;
+        top:1808px;
+        left:160px;
+    }
+    #espaco-trial p{
+        font-family:'Arial';
+        font-size:22px;
+        color:#000000;
+        position:absolute;
+        top:2160px;
+        left:95px;
+    }
+
+    /* VIAGEM A BARCO */
+    #espaco-barco{
+        background-color:#FFFFFF;
+        padding:120px 22px;
+        margin-right:3%;
+        margin-left:3%;
+        height:625px;
+    }
+    .logo3{
+        position:absolute;
+        top:2450px;
+        right:200px;
+    }
+    #espaco-barco h2{
+        font-family:'Swis721 BlkCn BT Black';
+        font-size:30px;
+        color:#000000;
+        position:absolute;
+        top:2520px;
+        right:120px;
+    }
+    #espaco-barco p{
+        font-family:'Arial';
+        font-size:22px;
+        color:#000000;
+        position:absolute;
+        top:2870px;
+        right:70px;
+    }
+
+    /* DESENVOLVIMENTO */
+    #desenvolvimento{
+        background-color:#231A0F;
+        width:100%;
+        margin-top:2%;
+        padding-bottom:5%;
+    }
+    #desenvolvimento h1{
+        font-family:'Western Bang Bang';
+        font-size:65px;
+        color:#FFFFFF;
+        text-align:center;
+        padding-top:2%;
+        padding-bottom:1%;
+    }
+    .tamanhok{
+        width:400px;
+        height:400px;
+    }
+    #carouselExampleControls{
+        /*background-color:#47341D;*/
+        background:linear-gradient(to top,#231A0F,#B1863B,#DBA851,#B1863B,#231A0F);
+        margin-left:10%;
+        margin-right:10%;
+    }
+
+    /* NEWSLETTER */
+    #newsletter{
+        margin-top:2%;
+        background-image:url(../fonts/newsletterteste.jpg);
+        background-repeat:no-repeat;
+        padding-right:400px;
+        padding-left:400px;
+        padding-top:210px;
+        padding-bottom:0px;
+    }
+    #newsletter h1{
+        font-family:'Western Bang Bang';
+        font-size:55px;
+        color:#D9A64D;
+        text-shadow:#000000 0.1em 0.1em 0.2em;
+        position:absolute;
+        top:3640px;
+        right:110px;
+    }
+    #inputNome{
+        position:absolute;
+        top:3730px;
+        right:95px;
+        width:250px;
+        height:30px;
+        margin-left:2.2%;
+        border:2px solid #FFFFFF;
+    }
+    #inputEmail{
+        position:absolute;
+        top:3780px;
+        right:95px;
+        width:250px;
+        height:30px;
+        margin-top:2%;
+        border:2px solid #FFFFFF;
+        margin-left:0.5%;
+    }
+    #botao{
+        background:linear-gradient(to bottom,#D9A64D, #CE8C2C,#AF7C28);
+        width:150px;
+        height:35px;
+        position:absolute;
+        top:3860px;
+        right:155px;
+        font-family:'Western Bang Bang';
+        font-size:25px;
+        color:#231A0F;
+        border:none;
+        box-shadow:2px 3px 2px #231A0F;
+    }
+    #botao:hover{
+        background:linear-gradient(to bottom,#AF7C28, #CE8C2C,#D9A64D);
+        width:150px;
+        height:35px;
+        position:absolute;
+        top:3860px;
+        right:155px;
+        font-family:'Western Bang Bang';
+        font-size:25px;
+        color:#231A0F;
+        border:none;
+        box-shadow:2px 3px 2px #231A0F;
+    }
+    #nome{
+        font-family:'Western Bang Bang';
+        font-size:25px;
+        text-shadow:#000000 0.1em 0.1em 0.2em;
+        color:#FFFFFF;
+        position:absolute;
+        top:3730px;
+        left:55px;  
+    }
+    #email{
+        font-family:'Western Bang Bang';
+        font-size:25px;
+        text-shadow:#000000 0.1em 0.1em 0.2em;
+        color:#FFFFFF;
+        position:absolute;
+        top:3790px;
+        left:55px;
+    }
+}

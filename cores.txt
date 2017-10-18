@@ -1,0 +1,21 @@
+CORES RGB:
+194,11,22 (#C20B16) = vermelho
+
+217,166,77 (#D9A64D) = bege
+
+255,255,255 (#FFFFFF) = branco
+
+0,0,0 (#000000) = preto
+
+153,109,44 (#996D2C) = bege escuro
+
+35,26,15 (#231A0F) = marrom escuro
+
+
+(BOTÃO DE ENVIAR)
+
+206,140,44 (#CE8C2C) = bege amarelado
+
+217,166,77 (#D9A64D) = bege claro
+
+175,124,40 (#AF7C28) = bege médio

@@ -1,0 +1,11 @@
+escopo
+funcionalidades do projeto
+participantes
+ícones = você faz 
+
+projeto sobre: 
+
+deixar um arquivo css de cores separado
+
+
+É APENAS UMA PÁGINA - navegações entre as seções #ancorar

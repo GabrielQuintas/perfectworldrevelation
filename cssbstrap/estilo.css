@@ -1,0 +1,81 @@
+.bg-purple-dark {
+    background-color:#5F276E;
+}
+
+.padding-purple {
+    padding:2%;
+}
+
+.bg-purple-light {
+    background-color: #A219C5;
+}
+
+.bg-white-color {
+    color:white;
+}
+
+.width {
+    width:1100px;
+}
+
+.border-radius {
+    border-radius:0;
+}
+
+.margin-app {
+    margin-right:10%;
+}
+
+.nossos-cursos {
+    margin-bottom:2%;
+    font-size:40px;
+    font-weight:300;
+}
+
+.codexp {
+    color:white;
+    margin-bottom:2%;
+    font-size:40px;
+    font-weight:300;  
+}
+
+.codexp2 {
+    color:white;
+    font-size:40px;
+    font-weight:300; 
+}
+
+.formulario {
+    color:white;
+    font-size:20px;
+    font-weight:300;  
+}
+
+.nossos-cursos2 {
+    margin-top:2%;
+    margin-bottom:2%;
+    font-size:40px;
+    font-weight:300;
+}
+
+.fundo{
+    background-color:#262626;
+}
+
+.img {
+    width:500px;
+}
+
+.bg-azul {
+    background-color:blue;
+    color:white;
+}
+
+.bg-verde {
+    background-color:green;
+    color:white;
+}
+
+.mbt {
+    margin-bottom:5%;
+}
